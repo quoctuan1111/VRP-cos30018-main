@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.12">
+  <diagram name="Page-1" id="COKefsoII5iDCOD5pWgd">
+    <mxGraphModel dx="1434" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;endArrow=none;startFill=0;" parent="1" source="rXx-2M7hU_zw94hGZsj8-1" target="rXx-2M7hU_zw94hGZsj8-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-1" value="Master Routing Agent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="rXx-2M7hU_zw94hGZsj8-2" target="rXx-2M7hU_zw94hGZsj8-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-2" value="Delivery Agent 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="rXx-2M7hU_zw94hGZsj8-3" target="rXx-2M7hU_zw94hGZsj8-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-3" value="Delivery Agent 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="653" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-4" value="Delivery Agent 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="653" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-5" value="Delivery Agent 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-6" value="Master Routing Agent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="285" as="sourcePoint" />
+            <mxPoint x="485" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-11" value="CAPACITY_REQUEST" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="239" y="253" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.77011494252874" y="330" as="sourcePoint" />
+            <mxPoint x="713" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-14" value="CAPACITY_REQUEST" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="363" y="303" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-15" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="372" as="sourcePoint" />
+            <mxPoint x="90" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-16" value="CAPACITY RERSPONSE (capacity, max_distance)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="344" width="282" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-17" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="713" y="410" as="sourcePoint" />
+            <mxPoint x="89" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-18" value="CAPACITY RESPONSE (capacity, max_distance)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="194" y="382" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="529" as="sourcePoint" />
+            <mxPoint x="485" y="529" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-20" value="ROUTE_ASSIGNMENT (route details)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="503" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="569" as="sourcePoint" />
+            <mxPoint x="713" y="569" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-22" value="ROUTE_ASSIGNMENT (route details)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="543" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-23" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="617" as="sourcePoint" />
+            <mxPoint x="90" y="617" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-24" value="ROUTE_CONFIRMATION" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="161.5" y="592" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-25" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="713" y="661" as="sourcePoint" />
+            <mxPoint x="90" y="661" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-26" value="ROUTE_CONFIRMATION" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="278" y="636" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-27" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="747" as="sourcePoint" />
+            <mxPoint x="90" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-28" value="ERROR ( constraint violation)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="157" y="722" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-29" value="Process delivery item and optimize Routes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;align=left;" parent="1" vertex="1">
+          <mxGeometry x="32" y="445" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-31" value="If Routes violates constraints" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="473" y="680" width="252" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rXx-2M7hU_zw94hGZsj8-33" value="Recalculate Routes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="32" y="782" width="120" height="37" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

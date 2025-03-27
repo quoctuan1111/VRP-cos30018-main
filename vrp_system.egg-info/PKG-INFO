@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: vrp_system
+Version: 0.1
+Summary: Vehicle Routing Problem System
+Author: VRP team
+Author-email: vanquoc11082004@gmaill.com
+Keywords: vrp,routing,optimization
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: pytest>=6.2.5
+Requires-Dist: matplotlib>=3.4.3
+Requires-Dist: typing-extensions>=4.0.0
+Requires-Dist: flask>=2.0.0
+Requires-Dist: tabulate>=0.8.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: keywords
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

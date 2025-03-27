@@ -1,0 +1,31 @@
+import unittest
+from src.models.location import Location
+from src.models.parcel import Parcel
+from src.models.route import Route
+
+@unittest.fixture
+def sample_locations():
+    """Provide sample locations for testing"""
+    return [
+        Location(0, 0),  # Warehouse
+        Location(1, 1),
+        Location(2, 2)
+    ]
+
+@unittest.fixture
+def sample_parcels(sample_locations):
+    """Provide sample parcels for testing"""
+    return [
+        Parcel(1, sample_locations[1], 2.0),
+        Parcel(2, sample_locations[2], 3.0)
+    ]
+
+@unittest.fixture
+def sample_route(sample_locations, sample_parcels):
+    """Provide sample route for testing"""
+    return Route(
+        vehicle_id="DA_1",
+        locations=sample_locations,
+        parcels=sample_parcels,
+        total_distance=5.0
+    )
